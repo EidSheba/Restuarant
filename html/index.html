@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fork & Flame - Home</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link 
+      rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous" 
+      referrerpolicy="no-referrer" 
+    />
+    <!-- AOS Animation -->
+    <link 
+      href="https://unpkg.com/aos@2.3.1/dist/aos.css" 
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <span class="brand-text">Fork & Flame</span>
+          <span class="brand-icon">🔥</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home"><span>Home</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu"><span>Menu</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about"><span>About</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"><span>Contact</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="hero-section text-center text-light d-flex align-items-center justify-content-center"
+    >
+      <div class="container">
+        <h1 class="display-3 fw-bold">Welcome to Fork & Flame</h1>
+        <p class="lead">Experience the finest dining with a touch of flame!</p>
+        <a href="#menu" class="btn btn-warning btn-lg mt-3">View Menu</a>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5">Our Menu</h2>
+        <div class="row g-4">
+          <!-- Pizza Card -->
+          <div class="col-md-6 col-lg-3">
+            <div class="card h-100 menu-card">
+              <div class="card-img-container">
+                <img src="../images/pizza.avif" class="card-img-top" alt="Delicious Pizza">
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-title">Pizza</h3>
+                <p class="card-text">Hand-tossed pizzas with fresh ingredients and homemade sauce.</p>
+                <a href="pizza.html" class="btn btn-warning">View Menu</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Pasta Card -->
+          <div class="col-md-6 col-lg-3">
+            <div class="card h-100 menu-card">
+              <div class="card-img-container">
+                <img src="../images/pasta.avif" class="card-img-top" alt="Tasty Pasta">
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-title">Pasta</h3>
+                <p class="card-text">Authentic Italian pasta dishes made with love and tradition.</p>
+                <a href="pasta.html" class="btn btn-warning">View Menu</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Chicken Card -->
+          <div class="col-md-6 col-lg-3">
+            <div class="card h-100 menu-card">
+              <div class="card-img-container">
+                <img src="../images/chicken.avif" class="card-img-top" alt="Juicy Chicken">
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-title">Chicken</h3>
+                <p class="card-text">Perfectly seasoned and cooked to juicy perfection.</p>
+                <a href="chicken.html" class="btn btn-warning">View Menu</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Salad Card -->
+          <div class="col-md-6 col-lg-3">
+            <div class="card h-100 menu-card">
+              <div class="card-img-container">
+                <img src="../images/salad.avif" class="card-img-top" alt="Fresh Salad">
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-title">Salad</h3>
+                <p class="card-text">Fresh, crisp greens with a variety of healthy toppings.</p>
+                <a href="salad.html" class="btn btn-warning">View Menu</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text" data-aos="fade-right">
+            <span class="section-subtitle">Our Story</span>
+            <h2 class="section-title">About Fork & Flame</h2>
+            <div class="divider"></div>
+            <p class="lead">
+              At Fork & Flame, we believe in the power of food to bring people together. 
+              Our passion for culinary excellence drives us to create unforgettable 
+              dining experiences that delight all your senses.
+            </p>
+            <p>
+              Founded in 2010, our restaurant combines traditional cooking methods 
+              with innovative techniques to deliver dishes that are both familiar 
+              and exciting. We source only the finest local ingredients to ensure 
+              every bite is packed with flavor and nutrition.
+            </p>
+            <div class="about-features">
+              <div class="feature" data-aos="fade-up" data-aos-delay="100">
+                <div class="feature-icon">
+                  <i class="fas fa-utensils"></i>
+                </div>
+                <div>
+                  <h4>Gourmet Cuisine</h4>
+                  <p>Handcrafted dishes by our master chefs</p>
+                </div>
+              </div>
+              <div class="feature" data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-icon">
+                  <i class="fas fa-leaf"></i>
+                </div>
+                <div>
+                  <h4>Fresh Ingredients</h4>
+                  <p>Locally sourced, organic produce</p>
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-primary mt-4" data-aos="fade-up" data-aos-delay="300">
+              Discover Our Menu
+            </button>
+          </div>
+          <div class="about-image" data-aos="fade-left">
+            <div class="image-wrapper">
+              <img 
+                src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80" 
+                alt="Restaurant Interior" 
+                class="img-fluid"
+              />
+              <div class="experience-badge" data-aos="fade-up" data-aos-delay="400">
+                <span class="years">10+</span>
+                <span>Years of Excellence</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark text-light">
+      <div class="container">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="4"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-warning w-100">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-3">
+      <div class="container">
+        <small>&copy; 2025 Fork & Flame. All rights reserved.</small>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      // Initialize AOS
+      document.addEventListener('DOMContentLoaded', function() {
+        AOS.init({
+          duration: 800,
+          easing: 'ease-in-out',
+          once: true,
+          offset: 100
+        });
+      });
+    </script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
